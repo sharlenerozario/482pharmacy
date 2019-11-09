@@ -1,0 +1,78 @@
+<style>
+	body{
+		margin:0px;
+		border:0px;
+	}
+
+	#header{
+		width:100%;
+		height:120px;
+		background:black;
+		color:white;
+	}
+
+	#sidebar{
+		width:300px;
+		height:520px;
+		background:#00B7C3;
+		float:left;
+	}
+	#data{
+		height:520px;
+		background:#68768A;
+	}
+
+	#adminLogo{
+		width:120px;
+		height:120px;
+		border-radius: 80px;
+	}
+
+	#updateicon{
+		width:20px;
+		height:20px;
+		border-radius: 10px;
+	}
+
+	#deleteicon{
+		width:20px;
+		height:20px;
+		border-radius: 10px;
+	}
+
+	ul li{
+		padding:20px;
+		border-bottom:2px solid grey;
+	}
+
+	ul li:hover{
+		background: #2D7D9A;
+		color:white;
+
+	}
+
+
+	div.container 
+	{
+		width: 100%;
+		border: 2px black;
+		padding: 25px 20px 30px 100px;
+		text-align: left;
+	}
+
+	label
+	{
+		padding:20px;
+	}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+
+
+
+
+</style>
