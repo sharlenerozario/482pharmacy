@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="add.css"></link>
+<link rel="stylesheet" type="text/css" href="home.css"></link>
+
+</head>
+<body>
+<div class="topnav">
+  <a class="active" href="home.html">Home</a>
+  <a href="login.html">Login</a>
+  <a href="available.html">All Availabile Drugs</a>
+  <a href="Prequest.html">Product Request</a>
+  <div class="dropdown">
+    <button class="dropbtn">Drugs Category 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="Category.html">Category 1</a>
+      <a href="Category.html">Category 2</a>
+      <a href="Category.html">Category 3</a>
+    </div>
+  </div> 
+  
+  <div class="search-container">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+  </div>
+</div>
+
+<h2 style="text-align:center">Product</h2>
+
+<div class="card">
+  <img src="img1.jpg" alt="Denim Jeans" style="width:100%">
+  <h1>Drug</h1>
+  <p class="price">20 TK</p>
+  <p>info</p>
+  <p>Quantity : <input type="number" name="quantity" min="1" ></p>
+  <p><button>Add to Cart</button></p>
+</div>
+</div>
+
+</html>

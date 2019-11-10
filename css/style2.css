@@ -1,0 +1,48 @@
+body{
+	margin:0 auto;
+	 background-image: url("../img/w.jpg");
+	 background-repeat:no-repeat;
+	 background-size:100% 720px;
+	
+}
+ .con{
+	width:500px;
+	height:500px;
+	text-align:center;
+	background-color:rgb(127, 255, 212);
+
+	border-radius:4px;
+	margin:0 auto;
+	margin-top:150px;
+	
+}
+
+input[type="text"],[type="password"],[type="email"],[type="mnumber"]{
+	height: 35px;
+	width:300px;
+	font-size:18px;
+	margin-bottom:20px;
+	border-radius:4px;
+	background-color:#fff;
+	padding-left:13px;
+	
+}
+.ch{
+	margin-bottom:20px;
+}
+
+.btn-submit{
+	padding:10px 54px;
+	color:		#fff;
+	border-radius:4px;
+	border:none;
+	background-color:rgba(101, 26, 26,0.7);
+	border-bottom:4px solid rgba(101, 26, 26,0.7);
+	margin-bottom:20px;
+	
+	
+	
+}
+
+
+	
